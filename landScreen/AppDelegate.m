@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import "CustomNavigationController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,8 +18,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    CustomNavigationController *nav = [[CustomNavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    nav.orietation =  UIInterfaceOrientationMaskPortrait;;
+    self.window.rootViewController = nav;
+    
     return YES;
 }
+
+//- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
+//{
+//    if (_allowRotation == 1) {
+//        return UIInterfaceOrientationMaskLandscapeRight;
+//    }
+//    else
+//    {
+//        return (UIInterfaceOrientationMaskPortrait);
+//    }
+//}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

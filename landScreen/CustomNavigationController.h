@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CustomNavigationController.h
 //  landScreen
 //
 //  Created by jun zhao on 16/8/18.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface CustomNavigationController : UINavigationController
+@property(nonatomic)NSUInteger orietation;
 @end
-

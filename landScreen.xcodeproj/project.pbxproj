@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B443FAB78F8F586522A7BB9D /* libPods-landScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6060EC515D8DC06F6B67EC17 /* libPods-landScreen.a */; };
 		C0DD59301D6553B3002C911F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DD592F1D6553B3002C911F /* main.m */; };
 		C0DD59331D6553B3002C911F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DD59321D6553B3002C911F /* AppDelegate.m */; };
 		C0DD59361D6553B3002C911F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DD59351D6553B3002C911F /* ViewController.m */; };
@@ -15,6 +16,10 @@
 		C0DD593E1D6553B3002C911F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0DD593C1D6553B3002C911F /* LaunchScreen.storyboard */; };
 		C0DD59491D6553B3002C911F /* landScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DD59481D6553B3002C911F /* landScreenTests.m */; };
 		C0DD59541D6553B3002C911F /* landScreenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DD59531D6553B3002C911F /* landScreenUITests.m */; };
+		C0DD59631D6553C9002C911F /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DD59621D6553C9002C911F /* secondViewController.m */; };
+		C0DD59661D655EFA002C911F /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DD59651D655EFA002C911F /* CustomNavigationController.m */; };
+		C0DD59691D656A98002C911F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DD59681D656A98002C911F /* ThirdViewController.m */; };
+		C0DD596C1D657A26002C911F /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DD596B1D657A26002C911F /* FourthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6060EC515D8DC06F6B67EC17 /* libPods-landScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-landScreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DD592B1D6553B3002C911F /* landScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = landScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DD592F1D6553B3002C911F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0DD59311D6553B3002C911F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,16 @@
 		C0DD594F1D6553B3002C911F /* landScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = landScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DD59531D6553B3002C911F /* landScreenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = landScreenUITests.m; sourceTree = "<group>"; };
 		C0DD59551D6553B3002C911F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0DD59611D6553C9002C911F /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		C0DD59621D6553C9002C911F /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		C0DD59641D655EFA002C911F /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		C0DD59651D655EFA002C911F /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		C0DD59671D656A98002C911F /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C0DD59681D656A98002C911F /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		C0DD596A1D657A26002C911F /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		C0DD596B1D657A26002C911F /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		D01564BB5823A19435D50C9F /* Pods-landScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-landScreen.release.xcconfig"; path = "Pods/Target Support Files/Pods-landScreen/Pods-landScreen.release.xcconfig"; sourceTree = "<group>"; };
+		D9A38313DF654DCA1AEEDB67 /* Pods-landScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-landScreen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-landScreen/Pods-landScreen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B443FAB78F8F586522A7BB9D /* libPods-landScreen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1794C8EF8024F46EAEC5645C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6060EC515D8DC06F6B67EC17 /* libPods-landScreen.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C0DD59221D6553B3002C911F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				C0DD59471D6553B3002C911F /* landScreenTests */,
 				C0DD59521D6553B3002C911F /* landScreenUITests */,
 				C0DD592C1D6553B3002C911F /* Products */,
+				CE8ED4E91DA47ABF1F354C27 /* Pods */,
+				1794C8EF8024F46EAEC5645C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +132,14 @@
 				C0DD59321D6553B3002C911F /* AppDelegate.m */,
 				C0DD59341D6553B3002C911F /* ViewController.h */,
 				C0DD59351D6553B3002C911F /* ViewController.m */,
+				C0DD59611D6553C9002C911F /* secondViewController.h */,
+				C0DD59621D6553C9002C911F /* secondViewController.m */,
+				C0DD59671D656A98002C911F /* ThirdViewController.h */,
+				C0DD59681D656A98002C911F /* ThirdViewController.m */,
+				C0DD596A1D657A26002C911F /* FourthViewController.h */,
+				C0DD596B1D657A26002C911F /* FourthViewController.m */,
+				C0DD59641D655EFA002C911F /* CustomNavigationController.h */,
+				C0DD59651D655EFA002C911F /* CustomNavigationController.m */,
 				C0DD59371D6553B3002C911F /* Main.storyboard */,
 				C0DD593A1D6553B3002C911F /* Assets.xcassets */,
 				C0DD593C1D6553B3002C911F /* LaunchScreen.storyboard */,
@@ -140,6 +175,15 @@
 			path = landScreenUITests;
 			sourceTree = "<group>";
 		};
+		CE8ED4E91DA47ABF1F354C27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9A38313DF654DCA1AEEDB67 /* Pods-landScreen.debug.xcconfig */,
+				D01564BB5823A19435D50C9F /* Pods-landScreen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0DD59581D6553B3002C911F /* Build configuration list for PBXNativeTarget "landScreen" */;
 			buildPhases = (
+				C3A15F90E0DF6E8EA03BA2C8 /* [CP] Check Pods Manifest.lock */,
 				C0DD59271D6553B3002C911F /* Sources */,
 				C0DD59281D6553B3002C911F /* Frameworks */,
 				C0DD59291D6553B3002C911F /* Resources */,
+				2FDC1E88F829DBCFA87658F6 /* [CP] Embed Pods Frameworks */,
+				C86F7DD3DDC7A3C1B9155A58 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,13 +312,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FDC1E88F829DBCFA87658F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-landScreen/Pods-landScreen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A15F90E0DF6E8EA03BA2C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C86F7DD3DDC7A3C1B9155A58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-landScreen/Pods-landScreen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0DD59271D6553B3002C911F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0DD59631D6553C9002C911F /* secondViewController.m in Sources */,
+				C0DD59661D655EFA002C911F /* CustomNavigationController.m in Sources */,
+				C0DD59691D656A98002C911F /* ThirdViewController.m in Sources */,
 				C0DD59361D6553B3002C911F /* ViewController.m in Sources */,
 				C0DD59331D6553B3002C911F /* AppDelegate.m in Sources */,
+				C0DD596C1D657A26002C911F /* FourthViewController.m in Sources */,
 				C0DD59301D6553B3002C911F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +510,7 @@
 		};
 		C0DD59591D6553B3002C911F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A38313DF654DCA1AEEDB67 /* Pods-landScreen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = landScreen/Info.plist;
@@ -422,6 +522,7 @@
 		};
 		C0DD595A1D6553B3002C911F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01564BB5823A19435D50C9F /* Pods-landScreen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = landScreen/Info.plist;
@@ -496,6 +597,7 @@
 				C0DD595A1D6553B3002C911F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0DD595B1D6553B3002C911F /* Build configuration list for PBXNativeTarget "landScreenTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +606,7 @@
 				C0DD595D1D6553B3002C911F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0DD595E1D6553B3002C911F /* Build configuration list for PBXNativeTarget "landScreenUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +615,7 @@
 				C0DD59601D6553B3002C911F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

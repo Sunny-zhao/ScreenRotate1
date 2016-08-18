@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  secondViewController.h
 //  landScreen
 //
 //  Created by jun zhao on 16/8/18.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface FourthViewController : UIViewController   //<UINavigationControllerDelegate>
 
 @end
-
